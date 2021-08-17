@@ -2,13 +2,18 @@
   "packages": {
     "dir": "",
     "menu": [
-      "introduction",
       [
         "tokens",
         [
+          "typography",
           "colors",
+          "spacing",
           "roundness",
-          "z-index"
+          "elevation",
+          "border-radius",
+          "transition",
+          "z-index",
+          "theme"
         ]
       ],
       [
@@ -21,7 +26,7 @@
       [
         "dockit",
         [
-          "layout"
+          "md-layout"
         ]
       ]
     ]

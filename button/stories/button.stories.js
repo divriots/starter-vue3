@@ -1,7 +1,16 @@
 import Button from '../src/Button.vue';
-import './button.scss';
+import '~/md-layout';
 
-export const normal = () => ({
+export default {
+  parameters: { layout: 'centered' },
+};
+
+export const anonymous = () => ({
   components: { Button },
-  template: `<Button style='background-color: --aria-color-primary'/>`,
+  template: `<Button />`,
+});
+
+export const named = () => ({
+  components: { Button },
+  template: `<Button name='Dave' />`,
 });

@@ -1,25 +1,25 @@
 ```js script
-import { html } from 'lit-html';
-import './colors.scss';
 import '@divriots/dockit-core/sass-showcases';
+import './showcase.css';
+import { html } from '~/md-layout';
 ```
 
-# Background colors
+# background-color
 
 ```html:html
 <dockit-sass-showcases
-  css-props-prefix="--aria-color"
+  css-props-prefix="--vue-color"
   component-class="box"
   style-key="background-color"
 ></dockit-sass-showcases>
 ```
 
-# Colors
+# color
 
 ```html:html
 <dockit-sass-showcases
-  css-props-prefix="--aria-color"
-  component-type="text"
-  style-key="color"
+css-props-prefix="--vue-color"
+component-type="text"
+style-key="color"
 ></dockit-sass-showcases>
 ```

@@ -1,7 +1,7 @@
-:root {
-  --aria-z-index-drawer: 700;
-  --aria-z-index-dialog: 800;
-  --aria-z-index-dropdown: 900;
-  --aria-z-index-toast: 950;
-  --aria-z-index-tooltip: 1000;
+%z-index {
+  --vue-z-index-drawer: 700;
+  --vue-z-index-dialog: 800;
+  --vue-z-index-dropdown: 900;
+  --vue-z-index-toast: 950;
+  --vue-z-index-tooltip: 1000;
 }
