@@ -3,9 +3,12 @@ import '@divriots/dockit-core/sass-showcases';
 import { html } from '~/md-layout';
 ```
 
-# transition
+# Transition
+
+## Time
 
 ```html:html
-<dockit-sass-showcases css-props-prefix="--vue-transition">
-</dockit-sass-showcases>
+<dockit-sass-showcases
+  css-props-prefix="--transition"
+></dockit-sass-showcases>
 ```

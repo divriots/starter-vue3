@@ -1,0 +1,18 @@
+:root {
+  color-scheme: light;
+
+  --vue-color-focus: var(--vue-color-focus-light);
+  --vue-color-primary: var(--vue-color-primary-light);
+  --vue-color-text-on-primary: var(--vue-color-white);
+  --vue-color-surface: var(--vue-color-surface-light);
+  --vue-color-border: var(--vue-color-border-light);
+}
+
+[color-scheme='light'] {
+  color-scheme: light;
+
+  --vue-color-focus: var(--vue-color-focus-light);
+  --vue-color-primary: var(--vue-color-primary-light);
+  --vue-color-surface: var(--vue-color-surface-light);
+  --vue-color-border: var(--vue-color-border-light);
+}

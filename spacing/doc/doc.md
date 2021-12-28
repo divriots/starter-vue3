@@ -3,8 +3,12 @@ import '@divriots/dockit-core/sass-showcases';
 import { html } from '~/md-layout';
 ```
 
-# space
+# Spacing
+
+## spaces
 
 ```html:html
-<dockit-sass-showcases css-props-prefix="--vue-spacing"></dockit-sass-showcases>
+<dockit-sass-showcases
+  css-props-prefix="--spacing"
+></dockit-sass-showcases>
 ```
