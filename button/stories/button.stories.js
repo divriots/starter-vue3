@@ -14,3 +14,8 @@ export const named = () => ({
   components: { Button },
   template: `<Button name='Dave' />`,
 });
+
+export const outlined = () => ({
+  components: { Button },
+  template: `<Button outlined />`,
+});

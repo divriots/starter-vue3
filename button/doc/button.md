@@ -34,3 +34,17 @@ Results in
 ```js story
 export const anonymous = stories.anonymous;
 ```
+
+## Variants
+
+### Outlined
+
+```jsx
+<Button outlined></Button>
+```
+
+Results in
+
+```js story
+export const outlined = stories.outlined;
+```

@@ -1,15 +1,17 @@
 ```js script
 import '@divriots/dockit-core/sass-showcases';
 import { html } from '~/md-layout';
-import './showcase.css';
 ```
 
-# box-shadow
+# Elevation
+
+## box-shadow
 
 ```html:html
 <dockit-sass-showcases
-  css-props-prefix="--vue-shadow"
+  css-props-prefix="--shadow"
   component-class="box"
-  style-key="box-shadow">
-</dockit-sass-showcases>
+  style-key="box-shadow"
+  checkered-background="false"
+></dockit-sass-showcases>
 ```

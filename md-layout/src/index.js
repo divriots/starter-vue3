@@ -1,9 +1,8 @@
-export { html } from 'lit-html';
+export { html } from 'lit';
+
+import './vue.svg.js';
+import './nuxt.svg.js';
+
+import '@divriots/dockit-core/style.css';
 import '~/theme/src/theme.scss';
-
-const setTheme = () => {
-  const body = document.querySelector('body');
-  body.setAttribute('class', 'vue-theme-ds');
-};
-
-setTheme();
+import './md-layout.css';

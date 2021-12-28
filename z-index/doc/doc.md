@@ -3,9 +3,12 @@ import '@divriots/dockit-core/sass-showcases';
 import { html } from '~/md-layout';
 ```
 
-# z-index
+# zIndices
+
+## z-index
 
 ```html:html
-<dockit-sass-showcases css-props-prefix="--vue-z-index">
-</dockit-sass-showcases>
+<dockit-sass-showcases
+  css-props-prefix="--z-index"
+></dockit-sass-showcases>
 ```

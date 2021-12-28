@@ -3,53 +3,55 @@ import '@divriots/dockit-core/sass-showcases';
 import { html } from '~/md-layout';
 ```
 
-# font-family
+# Typography
+
+## font-family
 
 ```html:html
 <dockit-sass-showcases
-  css-props-names="--vue-font-sans,--vue-font-serif,--vue-font-mono"
+  css-props-names="--font-sans,--font-serif,--font-mono"
   component-type="text"
   style-key="font-family"
 ></dockit-sass-showcases>
 ```
 
-# font-size
+## font-size
 
 ```html:html
 <dockit-sass-showcases
-css-props-prefix="--vue-font-size"
-component-type="text"
-style-key="font-size"
+  css-props-prefix="--font-size"
+  component-type="text"
+  style-key="font-size"
 ></dockit-sass-showcases>
 ```
 
-# font-weight
+## font-weight
 
 ```html:html
 <dockit-sass-showcases
-css-props-prefix="--vue-font-weight"
-component-type="text"
-style-key="font-weight"
+  css-props-prefix="--font-weight"
+  component-type="text"
+  style-key="font-weight"
 ></dockit-sass-showcases>
 ```
 
-# letter-spacing
+## letter-spacing
 
 ```html:html
 <dockit-sass-showcases
-css-props-prefix="--vue-letter-spacing"
-component-type="text"
-style-key="letter-spacing"
+  css-props-prefix="--letter-spacing"
+  component-type="text"
+  style-key="letter-spacing"
 ></dockit-sass-showcases>
 ```
 
-# line-height
+## line-height
 
 ```html:html
 <dockit-sass-showcases
-css-props-prefix="--vue-line-height"
-component-type="text"
-style-key="line-height"
-long-text
+  css-props-prefix="--line-height"
+  component-type="text"
+  style-key="line-height"
+  long-text
 ></dockit-sass-showcases>
 ```

@@ -1,11 +1,12 @@
 <template>
-  <button>{{ `${greeting} ${name}` }}</button>
+  <button :class="{ outlined }">{{ `${greeting} ${name}` }}</button>
 </template>
 
 <script lang="ts">
 export default {
   props: {
     name: { type: String, default: 'John Doe' },
+    outlined: { type: Boolean },
   },
   data() {
     return {
@@ -17,9 +18,20 @@ export default {
 
 <style lang="scss" scoped>
 button {
-  background-color: var(--vue-color-gray-300);
-  border-radius: var(--vue-border-radius-large);
-  height: var(--vue-spacing-x-large);
-  font-size: var(--vue-font-size-medium);
+  padding: var(--vue-spacing-00) var(--vue-spacing-2);
+  border-radius: var(--vue-border-radius-pill);
+  border: 1px solid var(--vue-color-border);
+  font-family: var(--vue-font-family);
+  font-size: var(--vue-font-size-00);
+  font-weight: var(--vue-font-weight-button);
+  letter-spacing: var(--vue-letter-spacing-button);
+  text-transform: uppercase;
+  color: var(--vue-color-text-on-primary);
+  background-color: var(--vue-color-primary);
+
+  &.outlined {
+    background-color: transparent;
+    color: var(--vue-color-primary);
+  }
 }
 </style>

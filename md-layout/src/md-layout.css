@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  padding: var(--spacing-medium);
+  background-color: var(--color-gray-100);
+  font: var(--font-size-medium) var(--font-sans);
+}
+
+.box {
+  width: 6rem;
+  height: 6rem;
+  background-color: var(--color-white);
+  box-shadow: var(--shadow-large);
+  border-radius: var(--border-radius-medium);
+}
