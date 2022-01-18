@@ -1,7 +1,7 @@
 @import 'https://cdn.jsdelivr.net/npm/water.css@2/out/water.css';
 
 body {
-  background-color: var(--color-gray-100);
+  background-color: var(--doc-color-background, inherit);
 }
 
 .box {
