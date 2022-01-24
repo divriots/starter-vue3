@@ -36,6 +36,8 @@ Get the command to link your Design System in your local project. To so, click t
 
 ### In your local project
 
+ℹ️ In the following instructions, keep in mind to use the right path to your Design System as set in the *npm* registry (e.g. `@backlight-dev/john.design-system`) . Have a look at the `node_modules` folder.
+
 1. Paste and execute the previously copied command. Validate default choices.
 2. Run your local project
    ```sh
@@ -46,13 +48,13 @@ Get the command to link your Design System in your local project. To so, click t
 4. Add a `<script>` tag, add the following lines to import the Design System `Button` component
    ```vue
    <script setup lang="ts">
-   import Button from '@backlight-dev/[workspace].[project]/button/src/Button.vue';
+   import Button from '@backlight-dev/john.design-system/button/src/Button.vue';
    </script>
    ```
 5. Add a `<style>` tag to import the Design System Sass primitives at `app` level
    ```vue
    <style lang="scss">
-   @use '@backlight-dev/[workspace].[project]/theme/src/theme.scss';
+   @use '@backlight-dev/john.design-system/theme/src/theme.scss';
    </style>
    ```
 6. Finally, replace the `app.vue`'s `<template>` tag content with a `Button` component instance. Your final `app.vue` file will look like:
@@ -65,14 +67,12 @@ Get the command to link your Design System in your local project. To so, click t
    </template>
 
    <script setup lang="ts">
-   import Button from '@backlight-dev/[workspace].[project]/button/src/Button.vue';
+   import Button from '@backlight-dev/john.design-system/button/src/Button.vue';
    </script>
 
    <style lang="scss">
-   @use '@backlight-dev/[workspace].[project]/theme/src/theme.scss';
+   @use '@backlight-dev/john.design-system/theme/src/theme.scss';
    </style>
    ```
-
-   keep in mind to replace `[workspace]` and `[project]` by the name of yours. Have a look at the `node_modules/@backlight-dev` folder.
 
 Have a look at your browser: your page was updated and you should see the Design System's `Button` component welcoming you, using the internal Design Tokens and Theme.
