@@ -1,8 +1,8 @@
 import { LitElement, html, css } from 'lit';
 import { unsafeSVG } from 'lit/directives/unsafe-svg.js';
-import logo from './vue.svg?raw';
+import logo from './logo.svg?raw';
 
-export class VueLogo extends LitElement {
+export class DocLogo extends LitElement {
   static styles = css`
     svg {
       width: 4rem;
@@ -16,4 +16,4 @@ export class VueLogo extends LitElement {
   }
 }
 
-customElements.define('vue-logo', VueLogo);
+customElements.define('doc-logo', DocLogo);
