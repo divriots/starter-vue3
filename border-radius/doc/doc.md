@@ -1,13 +1,13 @@
 ```js script
 import '@divriots/dockit-core/sass-showcases';
-import { html } from '~/md-layout';
+import '~/md-layout';
 ```
 
 # Border Radius
 
 ## border-radius
 
-```html:html
+```html story
 <dockit-sass-showcases
   css-props-prefix="--border-radius"
   component-class="box"

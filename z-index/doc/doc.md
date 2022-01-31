@@ -1,12 +1,12 @@
 ```js script
 import '@divriots/dockit-core/sass-showcases';
-import { html } from '~/md-layout';
+import '~/md-layout';
 ```
 
 # zIndices
 
 ## z-index
 
-```html:html
+```html story
 <dockit-sass-showcases css-props-prefix="--z-index"></dockit-sass-showcases>
 ```

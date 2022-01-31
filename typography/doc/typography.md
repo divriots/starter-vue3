@@ -1,13 +1,13 @@
 ```js script
 import '@divriots/dockit-core/sass-showcases';
-import { html } from '~/md-layout';
+import '~/md-layout';
 ```
 
 # Typography
 
 ## font-family
 
-```html:html
+```html story
 <dockit-sass-showcases
   css-props-names="--font-sans,--font-serif,--font-mono"
   component-type="text"
@@ -17,7 +17,7 @@ import { html } from '~/md-layout';
 
 ## font-size
 
-```html:html
+```html story
 <dockit-sass-showcases
   css-props-prefix="--font-size"
   component-type="text"
@@ -27,7 +27,7 @@ import { html } from '~/md-layout';
 
 ## font-weight
 
-```html:html
+```html story
 <dockit-sass-showcases
   css-props-prefix="--font-weight"
   component-type="text"
@@ -37,7 +37,7 @@ import { html } from '~/md-layout';
 
 ## letter-spacing
 
-```html:html
+```html story
 <dockit-sass-showcases
   css-props-prefix="--letter-spacing"
   component-type="text"
@@ -47,7 +47,7 @@ import { html } from '~/md-layout';
 
 ## line-height
 
-```html:html
+```html story
 <dockit-sass-showcases
   css-props-prefix="--line-height"
   component-type="text"

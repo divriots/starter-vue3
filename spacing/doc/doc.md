@@ -1,12 +1,12 @@
 ```js script
 import '@divriots/dockit-core/sass-showcases';
-import { html } from '~/md-layout';
+import '~/md-layout';
 ```
 
 # Spacing
 
 ## spaces
 
-```html:html
+```html story
 <dockit-sass-showcases css-props-prefix="--spacing"></dockit-sass-showcases>
 ```

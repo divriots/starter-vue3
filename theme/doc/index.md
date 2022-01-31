@@ -1,6 +1,6 @@
 ```js script
 import '@divriots/dockit-core/sass-showcases';
-import { html } from '~/md-layout';
+import '~/md-layout';
 ```
 
 <doc-logo></doc-logo>
@@ -26,7 +26,7 @@ It then use those internal tokens to defines theme-specific tokens depending on 
 
 ### font-family
 
-```html:html
+```html story
 <dockit-sass-showcases
   css-props-names="--vue-font-family,--vue-font-family-code"
   component-type="text"
@@ -36,7 +36,7 @@ It then use those internal tokens to defines theme-specific tokens depending on 
 
 ### font-size
 
-```html:html
+```html story
 <dockit-sass-showcases
   css-props-prefix="--vue-font-size"
   component-type="text"
@@ -46,7 +46,7 @@ It then use those internal tokens to defines theme-specific tokens depending on 
 
 ### font-weight
 
-```html:html
+```html story
 <dockit-sass-showcases
   css-props-prefix="--vue-font-weight"
   component-type="text"
@@ -56,7 +56,7 @@ It then use those internal tokens to defines theme-specific tokens depending on 
 
 ### letter-spacing
 
-```html:html
+```html story
 <dockit-sass-showcases
   css-props-prefix="--vue-letter-spacing"
   component-type="text"
@@ -66,7 +66,7 @@ It then use those internal tokens to defines theme-specific tokens depending on 
 
 ### line-height
 
-```html:html
+```html story
 <dockit-sass-showcases
   css-props-prefix="--vue-line-height"
   component-type="text"
@@ -77,7 +77,7 @@ It then use those internal tokens to defines theme-specific tokens depending on 
 
 ### background-color
 
-```html:html
+```html story
 <dockit-sass-showcases
   css-props-prefix="--vue-color"
   component-class="box"
@@ -87,7 +87,7 @@ It then use those internal tokens to defines theme-specific tokens depending on 
 
 ### color
 
-```html:html
+```html story
 <dockit-sass-showcases
   css-props-prefix="--vue-color"
   component-type="text"
@@ -97,13 +97,13 @@ It then use those internal tokens to defines theme-specific tokens depending on 
 
 ### spaces
 
-```html:html
+```html story
 <dockit-sass-showcases css-props-prefix="--vue-spacing"></dockit-sass-showcases>
 ```
 
 ### box-shadow
 
-```html:html
+```html story
 <dockit-sass-showcases
   css-props-prefix="--vue-shadow"
   component-class="box"
@@ -112,7 +112,7 @@ It then use those internal tokens to defines theme-specific tokens depending on 
 ></dockit-sass-showcases>
 ```
 
-```html:html
+```html story
 <dockit-sass-showcases
   css-props-prefix="--vue-border-radius"
   component-class="box"

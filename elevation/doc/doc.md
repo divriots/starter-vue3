@@ -1,13 +1,13 @@
 ```js script
 import '@divriots/dockit-core/sass-showcases';
-import { html } from '~/md-layout';
+import '~/md-layout';
 ```
 
 # Elevation
 
 ## box-shadow
 
-```html:html
+```html story
 <dockit-sass-showcases
   css-props-prefix="--shadow"
   component-class="box"

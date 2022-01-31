@@ -1,5 +1,5 @@
 ```js script
-import { html } from '~/md-layout';
+import '~/md-layout';
 ```
 
 <doc-logo></doc-logo>
