@@ -2,8 +2,7 @@
 import { html } from '~/md-layout';
 ```
 
-<vue-logo></vue-logo>
-<nuxt-logo></nuxt-logo>
+<doc-logo></doc-logo>
 
 # Vue.js v3.x Tech Sample
 

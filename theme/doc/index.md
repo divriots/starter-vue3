@@ -3,7 +3,7 @@ import '@divriots/dockit-core/sass-showcases';
 import { html } from '~/md-layout';
 ```
 
-<vue-logo></vue-logo>
+<doc-logo></doc-logo>
 
 # Vue Theme
 
