@@ -17,7 +17,7 @@
         ]
       ],
       ["components", ["button"]],
-      ["dockit", ["md-layout"]]
+      ["infrastructure", ["doc-layout"]]
     ]
   }
 }
