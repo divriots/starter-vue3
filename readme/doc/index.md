@@ -36,7 +36,7 @@ Get the command to link your Design System in your local project. To so, click t
 
 ### In your local project
 
-ℹ️ In the following instructions, keep in mind to use the right path to your Design System as set in the *npm* registry (e.g. `@backlight-dev/john.design-system`) . Have a look at the `node_modules` folder.
+ℹ️ In the following instructions, keep in mind to use the right path to your Design System as set in the _npm_ registry (e.g. `@backlight-dev/john.design-system`) . Have a look at the `node_modules` folder.
 
 1. Paste and execute the previously copied command. Validate default choices.
 2. Run your local project

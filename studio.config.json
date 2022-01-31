@@ -16,19 +16,8 @@
           "theme"
         ]
       ],
-      [
-        "components",
-        [
-          "button",
-          "select"
-        ]
-      ],
-      [
-        "dockit",
-        [
-          "md-layout"
-        ]
-      ]
+      ["components", ["button", "select"]],
+      ["dockit", ["md-layout"]]
     ]
   }
 }

@@ -8,7 +8,5 @@ import { html } from '~/md-layout';
 ## spaces
 
 ```html:html
-<dockit-sass-showcases
-  css-props-prefix="--spacing"
-></dockit-sass-showcases>
+<dockit-sass-showcases css-props-prefix="--spacing"></dockit-sass-showcases>
 ```
