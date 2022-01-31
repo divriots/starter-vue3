@@ -1,5 +1,5 @@
 ```js script
-import '@divriots/dockit-core/sass-showcases';
+import '@divriots/dockit-core/css-showcases';
 import '~/md-layout';
 ```
 
@@ -8,5 +8,5 @@ import '~/md-layout';
 ## z-index
 
 ```html story
-<dockit-sass-showcases css-props-prefix="--z-index"></dockit-sass-showcases>
+<dockit-css-showcases css-props-prefix="--z-index"></dockit-css-showcases>
 ```

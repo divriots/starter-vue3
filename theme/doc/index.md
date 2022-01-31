@@ -1,5 +1,5 @@
 ```js script
-import '@divriots/dockit-core/sass-showcases';
+import '@divriots/dockit-core/css-showcases';
 import '~/md-layout';
 ```
 
@@ -27,96 +27,96 @@ It then use those internal tokens to defines theme-specific tokens depending on 
 ### font-family
 
 ```html story
-<dockit-sass-showcases
+<dockit-css-showcases
   css-props-names="--vue-font-family,--vue-font-family-code"
   component-type="text"
   style-key="font-family"
-></dockit-sass-showcases>
+></dockit-css-showcases>
 ```
 
 ### font-size
 
 ```html story
-<dockit-sass-showcases
+<dockit-css-showcases
   css-props-prefix="--vue-font-size"
   component-type="text"
   style-key="font-size"
-></dockit-sass-showcases>
+></dockit-css-showcases>
 ```
 
 ### font-weight
 
 ```html story
-<dockit-sass-showcases
+<dockit-css-showcases
   css-props-prefix="--vue-font-weight"
   component-type="text"
   style-key="font-weight"
-></dockit-sass-showcases>
+></dockit-css-showcases>
 ```
 
 ### letter-spacing
 
 ```html story
-<dockit-sass-showcases
+<dockit-css-showcases
   css-props-prefix="--vue-letter-spacing"
   component-type="text"
   style-key="letter-spacing"
-></dockit-sass-showcases>
+></dockit-css-showcases>
 ```
 
 ### line-height
 
 ```html story
-<dockit-sass-showcases
+<dockit-css-showcases
   css-props-prefix="--vue-line-height"
   component-type="text"
   style-key="line-height"
   long-text
-></dockit-sass-showcases>
+></dockit-css-showcases>
 ```
 
 ### background-color
 
 ```html story
-<dockit-sass-showcases
+<dockit-css-showcases
   css-props-prefix="--vue-color"
   component-class="box"
   style-key="background-color"
-></dockit-sass-showcases>
+></dockit-css-showcases>
 ```
 
 ### color
 
 ```html story
-<dockit-sass-showcases
+<dockit-css-showcases
   css-props-prefix="--vue-color"
   component-type="text"
   style-key="color"
-></dockit-sass-showcases>
+></dockit-css-showcases>
 ```
 
 ### spaces
 
 ```html story
-<dockit-sass-showcases css-props-prefix="--vue-spacing"></dockit-sass-showcases>
+<dockit-css-showcases css-props-prefix="--vue-spacing"></dockit-css-showcases>
 ```
 
 ### box-shadow
 
 ```html story
-<dockit-sass-showcases
+<dockit-css-showcases
   css-props-prefix="--vue-shadow"
   component-class="box"
   style-key="box-shadow"
   checkered-background="false"
-></dockit-sass-showcases>
+></dockit-css-showcases>
 ```
 
 ```html story
-<dockit-sass-showcases
+<dockit-css-showcases
   css-props-prefix="--vue-border-radius"
   component-class="box"
   style-key="border-radius"
   checkered-background="false"
-></dockit-sass-showcases>
+></dockit-css-showcases>
 ```

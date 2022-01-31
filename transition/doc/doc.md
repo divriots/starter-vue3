@@ -1,5 +1,5 @@
 ```js script
-import '@divriots/dockit-core/sass-showcases';
+import '@divriots/dockit-core/css-showcases';
 import '~/md-layout';
 ```
 
@@ -8,7 +8,8 @@ import '~/md-layout';
 ## Time
 
 ```html story
-<dockit-sass-showcases
+<dockit-css-showcases
+  mode="time"
   css-props-prefix="--transition"
-></dockit-sass-showcases>
+></dockit-css-showcases>
 ```

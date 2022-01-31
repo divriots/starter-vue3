@@ -1,5 +1,5 @@
 ```js script
-import '@divriots/dockit-core/sass-showcases';
+import '@divriots/dockit-core/css-showcases';
 import '~/md-layout';
 ```
 
@@ -8,10 +8,10 @@ import '~/md-layout';
 ## box-shadow
 
 ```html story
-<dockit-sass-showcases
+<dockit-css-showcases
   css-props-prefix="--shadow"
   component-class="box"
   style-key="box-shadow"
   checkered-background="false"
-></dockit-sass-showcases>
+></dockit-css-showcases>
 ```

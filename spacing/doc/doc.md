@@ -1,5 +1,5 @@
 ```js script
-import '@divriots/dockit-core/sass-showcases';
+import '@divriots/dockit-core/css-showcases';
 import '~/md-layout';
 ```
 
@@ -8,5 +8,5 @@ import '~/md-layout';
 ## spaces
 
 ```html story
-<dockit-sass-showcases css-props-prefix="--spacing"></dockit-sass-showcases>
+<dockit-css-showcases css-props-prefix="--spacing"></dockit-css-showcases>
 ```
