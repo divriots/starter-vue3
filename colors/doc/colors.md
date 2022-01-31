@@ -1,13 +1,13 @@
 ```js script
 import '@divriots/dockit-core/sass-showcases';
-import { html } from '~/md-layout';
+import '~/md-layout';
 ```
 
 # Colors
 
 ## background-color
 
-```html:html
+```html story
 <dockit-sass-showcases
   css-props-prefix="--color"
   component-class="box"
@@ -17,7 +17,7 @@ import { html } from '~/md-layout';
 
 ## color
 
-```html:html
+```html story
 <dockit-sass-showcases
   css-props-prefix="--color"
   component-type="text"
