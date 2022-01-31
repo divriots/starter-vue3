@@ -46,32 +46,32 @@ Get the command to link your Design System in your local project. To so, click t
    Your browser will open the URL given by the command. You'll see the default NuxtJS starting page.
 3. Open your project in your IDE, and go to the file `~/app.vue`
 4. Add a `<script>` tag, add the following lines to import the Design System `Button` component
-   ```vue
+   ```html
    <script setup lang="ts">
-   import Button from '@backlight-dev/john.design-system/button/src/Button.vue';
+     import MyButton from '@backlight-dev/john.design-system/button/src/Button.vue';
    </script>
    ```
 5. Add a `<style>` tag to import the Design System Sass primitives at `app` level
-   ```vue
+   ```html
    <style lang="scss">
-   @use '@backlight-dev/john.design-system/theme/src/theme.scss';
+     @use '@backlight-dev/john.design-system/theme/src/theme.scss';
    </style>
    ```
 6. Finally, replace the `app.vue`'s `<template>` tag content with a `Button` component instance. Your final `app.vue` file will look like:
 
-   ```vue
+   ```html
    <template>
      <div>
-       <Button outlined name="Rioters 🤘" />
+       <MyButton outlined name="Rioters 🤘" />
      </div>
    </template>
 
    <script setup lang="ts">
-   import Button from '@backlight-dev/john.design-system/button/src/Button.vue';
+     import MyButton from '@backlight-dev/john.design-system/button/src/Button.vue';
    </script>
 
    <style lang="scss">
-   @use '@backlight-dev/john.design-system/theme/src/theme.scss';
+     @use '@backlight-dev/john.design-system/theme/src/theme.scss';
    </style>
    ```
 
