@@ -98,9 +98,7 @@ It then use those internal tokens to defines theme-specific tokens depending on 
 ### spaces
 
 ```html:html
-<dockit-sass-showcases
-  css-props-prefix="--vue-spacing"
-></dockit-sass-showcases>
+<dockit-sass-showcases css-props-prefix="--vue-spacing"></dockit-sass-showcases>
 ```
 
 ### box-shadow
