@@ -8,7 +8,6 @@
           "typography",
           "colors",
           "spacing",
-          "roundness",
           "elevation",
           "border-radius",
           "transition",
@@ -16,7 +15,7 @@
           "theme"
         ]
       ],
-      ["components", ["button", "select"]],
+      ["components", ["button"]],
       ["dockit", ["md-layout"]]
     ]
   }
