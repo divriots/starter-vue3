@@ -1,7 +1,6 @@
 ```js script
 import 'https://gitcdn.link/repo/PrismJS/prism-themes/master/themes/prism-vsc-dark-plus.css';
 import Button from '../src/Button.vue';
-import * as stories from '../stories/button.stories.js';
 import '~/md-layout';
 ```
 
@@ -13,38 +12,29 @@ This is a very simple example of a button
 
 ### Specifying a name
 
-```jsx
-<Button name="Dave"></Button>
-```
-
-Results in
-
-```js story
-export const named = stories.named;
+```js preview-story
+export const named = () => ({
+  components: { Button },
+  template: `<Button name='Dave' />`,
+});
 ```
 
 ### Without a name
 
-```jsx
-<Button></Button>
-```
-
-Results in
-
-```js story
-export const anonymous = stories.anonymous;
+```js preview-story
+export const anonymous = () => ({
+  components: { Button },
+  template: `<Button />`,
+});
 ```
 
 ## Variants
 
 ### Outlined
 
-```jsx
-<Button outlined></Button>
-```
-
-Results in
-
-```js story
-export const outlined = stories.outlined;
+```js preview-story
+export const outlined = () => ({
+  components: { Button },
+  template: `<Button outlined />`,
+});
 ```
