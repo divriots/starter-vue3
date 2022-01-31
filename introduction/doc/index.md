@@ -1,9 +1,3 @@
-```js script
-import '~/md-layout';
-```
-
-<doc-logo></doc-logo>
-
 # Vue.js v3.x Tech Sample
 
 This is a simple Vue.js-based Design System sample.

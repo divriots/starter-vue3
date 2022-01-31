@@ -1,9 +1,6 @@
 ```js script
 import '@divriots/dockit-core/css-showcases';
-import '~/md-layout';
 ```
-
-<doc-logo></doc-logo>
 
 # Vue Theme
 

@@ -1,6 +1,5 @@
 ```js script
 import '@divriots/dockit-core/css-showcases';
-import '~/md-layout';
 ```
 
 # Elevation
