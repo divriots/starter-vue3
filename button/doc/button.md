@@ -1,38 +1,42 @@
 ```js script
-import Button from '../src/Button.vue';
+import Button from '@divriots/starter-vue3/button/src/Button.vue';
 ```
 
 # Button
 
-This is a very simple example of a button
+This is a very simple example of a button.
 
-## Usage
+First, you'll need to import the button component:
 
-### Specifying a name
+```ts
+import Button from '@divriots/starter-vue3/button/src/Button.vue';
+```
+
+Component Button currently only implements a variant prop which can take 3 values - `primary`, `secondary` and `disabled`:
+
+## Primary
 
 ```js preview-story
-export const named = () => ({
+export const primary = () => ({
   components: { Button },
-  template: `<Button name='Dave' />`,
+  template: `<Button variant="primary">Primary</Button>`,
 });
 ```
 
-### Without a name
+## Secondary
 
 ```js preview-story
-export const anonymous = () => ({
+export const secondary = () => ({
   components: { Button },
-  template: `<Button />`,
+  template: `<Button variant="secondary">Secondary</Button>`,
 });
 ```
 
-## Variants
-
-### Outlined
+## Disabled
 
 ```js preview-story
-export const outlined = () => ({
+export const disabled = () => ({
   components: { Button },
-  template: `<Button outlined />`,
+  template: `<Button variant="disabled">Disabled</Button>`,
 });
 ```

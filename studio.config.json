@@ -17,7 +17,7 @@
         ]
       ],
       ["components", ["button"]],
-      ["infrastructure", ["doc-layout"]]
+      ["infrastructure", ["doc-layout", "types"]]
     ]
   }
 }
