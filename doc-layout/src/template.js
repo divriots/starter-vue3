@@ -1,6 +1,6 @@
 import '@divriots/dockit-core/style.css';
-import '@divriots/dockit-core/mdjs-layout/define.js';
-import { styles } from '@divriots/dockit-core/mdjs-layout';
+import '@divriots/dockit-core/layout/dockit-layout.define.js';
+import { styles } from '@divriots/dockit-core/layout';
 import { html } from 'lit';
 import { unsafeHTML } from 'lit/directives/unsafe-html.js';
 import logoSvg from './logo.svg?raw';
@@ -19,7 +19,7 @@ export const docLayoutTemplate = (content, context) => html`
       border-radius: var(--border-radius-medium);
     }
   </style>
-  <mdjs-layout
+  <dockit-layout
     .context="${context}"
     @color-scheme-change="${(event) => {
       if (event.detail.colorScheme === 'dark') {
@@ -35,5 +35,5 @@ export const docLayoutTemplate = (content, context) => html`
       ${unsafeHTML(logoSvg)}
     </div>
     <div class="prose dark:prose-invert">${unsafeHTML(content)}</div>
-  </mdjs-layout>
+  </dockit-layout>
 `;

@@ -1,5 +1,5 @@
 ```js script
-import '@divriots/dockit-core/css-showcases';
+import '@divriots/dockit-core/css-showcases/dockit-css-showcases.define.js';
 ```
 
 # zIndices

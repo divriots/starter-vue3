@@ -1,19 +1,12 @@
 <template>
-  <button :class="{ outlined }">{{ `${greeting} ${name}` }}</button>
+  <button :class="variant"><slot></slot></button>
 </template>
 
-<script lang="ts">
-export default {
-  props: {
-    name: { type: String, default: 'John Doe' },
-    outlined: { type: Boolean },
-  },
-  data() {
-    return {
-      greeting: 'Hello',
-    };
-  },
-};
+<script setup lang="ts">
+const props = defineProps({
+  name: { type: String, default: 'John Doe' },
+  variant: { type: String, default: 'primary' },
+});
 </script>
 
 <style lang="scss" scoped>
@@ -26,17 +19,27 @@ button {
   font-weight: var(--vue-font-weight-button);
   letter-spacing: var(--vue-letter-spacing-button);
   text-transform: uppercase;
-  color: var(--vue-color-text-on-primary);
-  background-color: var(--vue-color-primary);
 
-  &.outlined {
+  &.primary {
+    background-color: var(--vue-color-primary);
+    color: var(--vue-color-text-on-primary);
+  }
+
+  &.secondary {
+    background-color: var(--vue-color-secondary);
+    color: var(--vue-color-text-on-secondary);
+  }
+
+  &.disabled,
+  &:disabled {
     background-color: transparent;
-    color: var(--vue-color-primary);
+    pointer-events: none;
+    filter: brightness(50%);
   }
 
   &:hover {
-    background-color: var(--vue-color-primary);
     color: var(--vue-color-text-on-primary);
+    filter: brightness(1.1);
   }
 }
 </style>
