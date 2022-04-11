@@ -1,42 +1,17 @@
-```js script
-import Button from '@divriots/starter-vue3/button/src/Button.vue';
-```
+<script setup>
+import Button from '../src/Button.vue';
+import { VueLive } from "vue-live";
+import "vue-live/lib/vue-live.esm.css";
 
-# Button
+const buttonPlaygroundCode = '<Button variant="primary">foobar</Button>';
+const handleError = (e) => console.error(e);
+</script>
 
-This is a very simple example of a button.
+<style scoped lang="scss">
+</style>
 
-First, you'll need to import the button component:
+<Button variant="primary">foobar</Button>
 
-```ts
-import Button from '@divriots/starter-vue3/button/src/Button.vue';
-```
+lalala
 
-Component Button currently only implements a variant prop which can take 3 values - `primary`, `secondary` and `disabled`:
-
-## Primary
-
-```js preview-story
-export const primary = () => ({
-  components: { Button },
-  template: `<Button variant="primary">Primary</Button>`,
-});
-```
-
-## Secondary
-
-```js preview-story
-export const secondary = () => ({
-  components: { Button },
-  template: `<Button variant="secondary">Secondary</Button>`,
-});
-```
-
-## Disabled
-
-```js preview-story
-export const disabled = () => ({
-  components: { Button },
-  template: `<Button variant="disabled">Disabled</Button>`,
-});
-```
+<VueLive :code="buttonPlaygroundCode" :components="{ Button }" v-on:error="(e) => handleError(e)"></VueLive>

@@ -19,5 +19,8 @@
       ["components", ["button"]],
       ["infrastructure", ["doc-layout", "types"]]
     ]
+  },
+  "doc": {
+    "markdownEngine": "vue"
   }
 }

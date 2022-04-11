@@ -1,4 +1,4 @@
-```js script
+```TODOjs script
 import '@divriots/dockit-core/css-showcases/dockit-css-showcases.define.js';
 ```
 
