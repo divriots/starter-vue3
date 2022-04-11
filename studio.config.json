@@ -16,8 +16,11 @@
           "theme"
         ]
       ],
-      ["components", ["button"]],
+      ["components", ["button", "icon"]],
       ["infrastructure", ["doc-layout", "types"]]
     ]
+  },
+  "doc": {
+    "markdownEngine": "vue"
   }
 }

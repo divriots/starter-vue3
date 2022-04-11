@@ -1,11 +1,22 @@
 <template>
-  <button :class="variant"><slot></slot></button>
+  <button :class="variant">
+    <slot></slot>
+  </button>
 </template>
 
 <script setup lang="ts">
+import { PropType } from 'vue';
+
 const props = defineProps({
-  name: { type: String, default: 'John Doe' },
-  variant: { type: String, default: 'primary' },
+  /**
+   * The variant of the button - either 'primary' or 'secondary'
+   * @example 'secondary'
+   */
+  variant: {
+    type: String as PropType<'primary' | 'secondary'>,
+    default: 'primary',
+    validator: (value: any) => ['primary', 'secondary'].includes(value),
+  },
 });
 </script>
 

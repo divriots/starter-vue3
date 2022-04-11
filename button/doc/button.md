@@ -1,42 +1,22 @@
-```js script
-import Button from '@divriots/starter-vue3/button/src/Button.vue';
-```
+<script setup>
+import { Button } from '@divriots/starter-vue3';
 
-# Button
+const buttonPlaygroundCode = '<Button variant="primary">Click me</Button>';
+</script>
 
-This is a very simple example of a button.
+# Button component
 
-First, you'll need to import the button component:
+## Description
 
-```ts
-import Button from '@divriots/starter-vue3/button/src/Button.vue';
-```
+Very simple button component
 
-Component Button currently only implements a variant prop which can take 3 values - `primary`, `secondary` and `disabled`:
+## Props
 
-## Primary
+<Props :of="Button"></Props>
 
-```js preview-story
-export const primary = () => ({
-  components: { Button },
-  template: `<Button variant="primary">Primary</Button>`,
-});
-```
+## Example
 
-## Secondary
-
-```js preview-story
-export const secondary = () => ({
-  components: { Button },
-  template: `<Button variant="secondary">Secondary</Button>`,
-});
-```
-
-## Disabled
-
-```js preview-story
-export const disabled = () => ({
-  components: { Button },
-  template: `<Button variant="disabled">Disabled</Button>`,
-});
-```
+<Playground 
+  :code="buttonPlaygroundCode"
+  :components="{ Button }">
+</Playground>

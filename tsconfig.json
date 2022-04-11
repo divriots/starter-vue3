@@ -6,11 +6,13 @@
     "experimentalDecorators": true,
     "module": "ESNext",
     "moduleResolution": "Node",
+    "jsx": "preserve",
     "sourceMap": true,
     "baseUrl": ".",
     "paths": {
       "~/*": ["*"],
-      "@divriots/starter-vue3/*": ["*"]
+      "@divriots/starter-vue3/*": ["*"],
+      "@divriots/starter-vue3": ["index"]
     }
   }
 }

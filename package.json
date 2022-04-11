@@ -1,6 +1,6 @@
 {
   "name": "@divriots/starter-vue3",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "",
   "license": "MIT",
   "type": "module",
@@ -8,14 +8,17 @@
   "scripts": {
     "serve": "npx backlight@latest serve X7aB8QwVxKNCtYJojIaa --open"
   },
+  "exports": {
+    ".": "./index.js"
+  },
+  "types": "index.d.ts",
   "dependencies": {
-    "@babel/runtime": "^7.17.2",
     "vue": "^3.1.4"
   },
   "devDependencies": {
-    "@divriots/dockit-core": "^0.7.2",
-    "@vue/test-utils": "latest",
-    "lit": "^2.0.2",
+    "@divriots/dockit-core": "^0.9.1",
+    "@divriots/dockit-vue": "^0.0.23",
+    "@vue/test-utils": "^2.0.0-rc.17",
     "prettier": "^2.3.2"
   }
 }

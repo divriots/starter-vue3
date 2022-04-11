@@ -9,16 +9,22 @@ You can head to any of them (for example [colors](../../colors/doc/colors.md)) a
 
 ## Documentation
 
-The documentation of this starter is written with [mdjs](https://backlight.dev/docs/mdjs), which allows us to easily incorporate Javascript and HTML into Markdown.
+The documentation of this starter is written with a [Vue flavored markdown](https://backlight.dev/docs/md-vue), so that even writing documentation feels closers to actually developing in Vue.
 
-It uses [dockit-core](https://github.com/divriots/dockit-react), a library that comes with nice components for show-casing CSS Design Tokens as well as the documentation page layout, featuring light & dark toggles as well as a navigation menu to go through the various tokens and components.
+It uses a combination of [dockit-vue](https://github.com/divriots/dockit-vue) and [dockit-core](https://github.com/divriots/dockit-core).
 
-## Components
+The former provides a [Vue layout](https://studio.backlight.dev/doc/JwppqaVhCm2NyL9qmkDM/layout/doc/layout.md) and some interesting documentation components like [Props](https://studio.backlight.dev/doc/JwppqaVhCm2NyL9qmkDM/props/doc/props.md).
 
+The latter contains [web components](https://studio.backlight.dev/doc/4BeMe20hqOWTkdUL2NuJ/introduction/doc/introduction.md) used in this starter kit to showcase CSS properties.
+
+## Writing components
+
+Two very simple components are provided as examples for you to build on.
 The [Button](../../button/doc/button.md) component has some documentation, some stories and tests.
 
 Stories are written using [Storybook's Component Story Format(CSF)](https://backlight.dev/docs/component-story-format).
-The documentation leverages mdjs' capabilities to include visual examples and code blocks for references.
+
+The documentation leverages Vue markdown capabilities to include visual examples and code blocks for references.
 
 ## Usage in your application
 

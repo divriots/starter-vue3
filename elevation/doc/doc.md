@@ -1,16 +1,11 @@
-```js script
-import '@divriots/dockit-core/css-showcases/dockit-css-showcases.define.js';
-```
+<style lang="scss" scoped>
+.box {
+  background-color: white !important;
+}
+</style>
 
 # Elevation
 
 ## box-shadow
 
-```html story
-<dockit-css-showcases
-  css-props-prefix="--shadow"
-  component-class="box"
-  style-key="box-shadow"
-  checkered-background="false"
-></dockit-css-showcases>
-```
+<dockit-css-showcases css-props-prefix="--shadow" component-class="box" style-key="box-shadow"></dockit-css-showcases>
