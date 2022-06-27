@@ -15,3 +15,8 @@ export const disabled = () => ({
   components: { Button },
   template: `<Button variant="disabled">Disabled</Button>`,
 });
+
+export const newstory = () => ({
+  components: { Button },
+  template: `<Button>DisaNewbled</Button>`,
+});
