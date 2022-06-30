@@ -1,5 +1,5 @@
 <script setup>
-import { Button } from '../..';
+import { Button } from '../../index';
 
 const buttonPlaygroundCode = '<Button variant="primary">Click me</Button>';
 </script>
