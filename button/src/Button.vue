@@ -32,7 +32,7 @@ button {
   text-transform: uppercase;
 
   &.primary {
-    background-color: var(--vue-color-primary);
+    background-color: hotpink;
     color: var(--vue-color-text-on-primary);
   }
 
